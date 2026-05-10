@@ -53,3 +53,16 @@ li button {
 li button:hover {
     background-color: #c0392b;
 }
+
+#myChart {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 30px auto;
+    display: block;
+}
+
+.chart-container {
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+}

@@ -1,5 +1,6 @@
 package com.luiz.financial_system.entity;
 
+import com.luiz.financial_system.enums.Category;
 import com.luiz.financial_system.enums.TransactionType;
 import jakarta.persistence.*;
 import java.time.LocalDate;
@@ -19,6 +20,9 @@ public class Transaction {
 
     @Enumerated(EnumType.STRING)
     private TransactionType type;
+
+    @Enumerated(EnumType.STRING)
+    private Category category;
 
     private LocalDate date;
 
